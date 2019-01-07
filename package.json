@@ -1,0 +1,21 @@
+{
+  "name": "lex-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": "bin/lex-deploy.js",
+  "scripts": {
+    "prettier": "prettier --write 'lib/**/*.js'"
+  },
+  "author": "Artsiom Aliakseyenka",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "jszip": "^3.1.5",
+    "winston": "^3.1.0",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}
