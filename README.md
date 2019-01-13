@@ -33,6 +33,14 @@ Deploys bot with schema(NameOfTheBot_Export.json) to alias `prod`
 lex-deploy deploy --schemaPath ./NameOfTheBot_Export.json --alias prod
 ```
 
+## ENV variables
+POLL_TIMEOUT - the delay to poll the aws lex building service for status. Default `3000`ms. If decrease - aws limit might be reached.
+
 
 ## AWS setup
 To setup aws variables please use [environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html) defined by aws
+
+###IAM
+`lambda:AddPermission` policy is required to add lambda permission to be invoked by lex
+
+`lex:*` policy is required to call lex building service

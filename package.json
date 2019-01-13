@@ -1,13 +1,12 @@
 {
   "name": "lex-deploy",
   "version": "1.0.0",
-  "description": "",
   "main": "lib/index.js",
   "bin": "bin/lex-deploy.js",
   "scripts": {
     "prettier": "prettier --write 'lib/**/*.js'"
   },
-  "author": "Artsiom Aliakseyenka",
+  "author": "Artsiom Aliakseyenka <alekseenkoart@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.382.0",
@@ -17,5 +16,15 @@
   },
   "devDependencies": {
     "prettier": "^1.15.3"
-  }
+  },
+  "keywords": [
+    "lex",
+    "aws",
+    "aws-lex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aaliakseyenka/lex-deploy.git"
+  },
+  "description": "CI tool for export, deploy and publish of aws lex bot"
 }
