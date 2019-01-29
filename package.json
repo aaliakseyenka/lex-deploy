@@ -1,6 +1,6 @@
 {
   "name": "lex-deploy",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "lib/index.js",
   "bin": "bin/lex-deploy.js",
   "scripts": {
